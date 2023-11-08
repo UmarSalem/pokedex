@@ -57,30 +57,58 @@ code {
 .pokemon-detail {
   background-color: #f7f7f7;
   padding: 20px;
+  text-align: center;
+  font-size: 1.3rem;
+  line-height: 2;
 }
 
 /* About page styles */
-.about-page
+
 .HomePage-page {
   background-color: #f7f7f7;
   padding: 20px;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   line-height: 1.6;
 }
-
+.about-page {
+  background-color: #f7f7f7;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.4rem;
+  line-height: 1.6;
+}
 /* About page heading styles */
-.about-page h2
+.about-page  {
+  color: #333;
+  margin-bottom: 10px;
+}
 .HomePage-page {
   color: #333;
   margin-bottom: 10px;
 }
 
 .pokemon-item {
-  display: flex;
-  align-items: center;
+  display: inline-block;
+  width: 23%; 
+  margin: 1%; 
   padding: 10px;
-  border: 1px solid #ddd;
+  background-color: rgb(246,239,119);
+  border-radius: 40px;
+  text-align:left;
+}
+.pokemon-item:hover {
+  background-color: rgb(255,255,0);
+  
+}
+.pokemon-item:hover div {
+  background-color: rgb(255,255,0); 
+}
+
+.pokemon-item img {
+  width: 300px; 
+  height: 300px;  
+  align-self: center;
 }
 
 .yellow {
